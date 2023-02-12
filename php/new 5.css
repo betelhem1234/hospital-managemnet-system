@@ -1,0 +1,44 @@
+I used the css property z-index, which controls the stack order to fix this: I also used position: fixed to fix the header and footer:
+
+I put
+
+        .header {
+background: black;
+width: 100%;
+height: 66px;
+position:fixed;
+overflow: hidden;
+z-index: 20;}
+
+.login{
+	font-size:30px;
+alink:pink;
+ text-align:right;
+}
+.main_wrap {
+    display: table;
+    width: 100%;
+    height: 100%;
+    margin-top: -88px;
+    vertical-align: middle;
+    position: relative;
+    z-index: -1;
+}
+#footer {
+background: black;
+width: 100%;
+position: relative;
+font-size: 85%;
+color: #d0d6e0;
+margin-top: -22px;
+position: fixed;}
+{
+border :20px solid beige;
+border-top-color:black;
+border-right-color:white;
+border-left-color:black;
+border-bottom-color:white;
+border-bottom-height:20%;
+border-radius:20px 20px 20px 20px;
+
+}

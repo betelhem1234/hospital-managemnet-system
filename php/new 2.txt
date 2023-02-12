@@ -1,0 +1,26 @@
+<div class="input">
+ <input type="text" name="search" placeholder="search anywhere"/>
+ <button type="button" name="submit" class="search">o</button>
+</div>
+<p Id="demo"></p>
+ <script>
+ let outputScreen=document.getElementById("output-screen");<!--everything in the input value can be saved in the output screen variable-->
+
+function display(){ 
+var num=document.getElementById("output-screen").innerHTML;
+document.getElementById("demo").innerHTML=num;
+ 
+}
+function calculate(){
+try{
+outputScreen.value=eval(outputScreen.value);
+}
+catch(err){
+  alert("invalid");
+}
+
+}
+function clear(){
+outputScreen.value="";
+}
+ </script>

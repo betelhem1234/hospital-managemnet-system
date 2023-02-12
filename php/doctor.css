@@ -1,0 +1,24 @@
+body{
+background-image:url('.webp');
+   background-size:100px;
+   background-position:center;
+  width:4400px;
+ height:2000px;
+  margin:7px;
+  text-align:;
+}
+form{
+text-align:center;
+width:500px;
+margin : 20px;
+padding:30px;
+border :20px solid beige;
+border-top-color:black;
+border-right-color:white;
+border-left-color:black;
+border-bottom-color:white;
+border-bottom-height:20%;
+background : transparent;
+border-radius:20px 20px 20px 20px;
+float:center;
+}
